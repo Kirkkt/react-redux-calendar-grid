@@ -1,0 +1,89 @@
+.content {
+  margin-top: 50px;
+  height: 720px;
+}
+
+.sideLegend {
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+}
+
+.grid {
+  display: inline-block;
+  height: 100%;
+  width: 620px;
+}
+
+.oClockHourStamp {
+  text-align: right;
+  height: 30px;
+  margin-right: 2px;
+}
+
+.oClockHourStamp .hourStampText {
+  font-size: large;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.oClockHourStamp .amOrPm {
+  font-size: small;
+}
+
+.halfOClockHourStamp {
+  text-align: right;
+  height: 29px;
+  margin-right: 2px;
+}
+
+.gridBackground {
+  border: 2px solid #ccc;
+}
+
+.gridBackgroundBlock {
+  height: 60px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.CalendarEvents {
+  position: absolute;
+  top: 55px;
+}
+
+.CalendarEvent {
+  height: 100%;
+}
+
+.CalendarEventContentWrapper {
+  background: #ddd;
+  height: 100%;
+}
+
+.CalendarEventContent {
+  border: 1px solid #eee;
+  border-left: 8px solid #3cbd70;
+  height: 100%;
+  padding: 8px;
+}
+
+.CalendarEventItem {
+  color: #3cbd70;
+  font-size: 14px;
+}
+
+.CalendarEventLocation {
+  color: #aaa;
+  font-size: 10px;
+}
+
+.eventButtons {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.eventButton {
+  margin: 10px;
+}
